@@ -1,0 +1,160 @@
+* {
+  box-sizing: border-box
+}
+
+.container {
+  width: 317px;
+  height: 780px;
+  background-color: #1A1B21;
+  margin: 44px auto;
+  border-radius: 6px;
+}
+
+/* 
+ ===================
+  HEADER COMPONENT
+ ===================
+*/
+
+.main-image{
+  width: 317px;
+  height: 317px;
+  border-radius: 6px;
+}
+
+.header-container{
+  text-align: center;
+}
+
+h1{
+  margin-bottom: 2px;
+}
+
+span{
+  font-size: 13px;
+  color: #F3BF99;
+}
+
+/* Container for the buttons */
+.contact-info-btn-container {
+  display: flex;
+  justify-content: center;
+  gap: 16px; /* Space between the two buttons */
+  margin-top: 15px;
+}
+
+/* Base button/link style */
+.btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 8px; /* Space between SVG icon and text */
+  padding: 9px 13px;
+  border-radius: 6px;
+  font-size: 14px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.2s ease;
+  min-width: 115px; /* Ensures buttons are consistent size */
+}
+
+/* Email Button Styling */
+.email-btn {
+  background-color: #ffffff;
+  color: #374151; /* Darker gray for text */
+}
+
+.email-btn:hover {
+  background-color: #f9fafb;
+}
+
+/* LinkedIn Button Styling */
+.linked-btn {
+  background-color: #5093E2; /* Blue shade matching your screenshot */
+  color: #ffffff;
+  border: none;
+}
+
+.linked-btn:hover {
+  background-color: #43718d;
+}
+
+/* Icon scaling */
+.btn svg {
+  font-size: 16px;
+}
+
+/*
+  ============================
+  Main Content Component
+  ============================
+  
+*/
+
+.main-content-container{
+  padding-left: 35px;
+  padding-right: 35px;
+  margin-top: 35px;
+}
+
+h2{
+  margin-bottom: 0px;
+}
+
+p{
+  font-size: 10px;
+  line-height: 150%;
+}
+
+/*
+ =========================
+  Footer Conent
+ =========================
+*/
+
+.footer-container {
+  padding: 40px 20px;
+  text-align: center;
+  background-color: #1a1a1a; /* Dark background to match your UI */
+  color: #9ca3af; /* Muted gray */
+}
+
+.footer-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  margin-bottom: 10px;
+}
+
+.footer-icon {
+  fill: #9ca3af;
+  transition: fill 0.2s;
+}
+
+.footer-icon:hover {
+  fill: #ffffff;
+}
+
+.footer-text-link {
+  color: #9ca3af;
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.footer-text-link:hover {
+  color: #ffffff;
+  text-decoration: underline;
+}
+
+.footer-divider {
+  color: #4b5563; /* Darker gray divider */
+  user-select: none;
+}
+
+.footer-tagline {
+  font-size: 12px;
+  margin-top: 8px;
+  opacity: 0.6;
+}
